@@ -19,7 +19,7 @@ const port = process.env.PORT || 5000
 
 const mongoose = require("mongoose");
 //config.mongoURI
-//`mongodb://mongo:27017/docker-node-mongo`
+//'mongodb://mongo:27017/testdb'
 const connect = mongoose.connect('mongodb://mongo:27017/testdb')
   .then(() => {console.log('MongoDB Connected...');
   
